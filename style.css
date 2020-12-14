@@ -1,0 +1,68 @@
+/*
+Theme Name: Product
+Theme URI: http://wordpress.example.com/themes/product
+Author: shibly
+Author URI: http://wordpress.example.com/
+Description: This is an awesome WordPress theme.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: product
+Text Domain: product
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+html, body {
+	
+	margin: 0px;
+	padding: 0px;
+	width: 100%;	
+	/* overflow-x: hidden; */
+}
+
+div.cl_div_banner {
+	width: 100%;
+	height: 225px;
+    background-color: rgb(25, 40, 105);
+    text-align: center;
+	color: black;
+	display: block;	
+}
+
+span.cl_span_product {
+	display: inline-block;
+	/*vertical-align: middle;
+	line-height: normal;*/
+	color: white;
+	font-family: TimesNewRoman,Times New Roman,Times,Baskerville,Georgia,serif;
+	font-size: 92px;
+	line-height: 225px;				
+}
+
+div.cl_div_footer {
+    /*background-size: cover;*/
+    background-color: rgb(25,40,105);
+    min-height: 40px;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    width: 100%;
+}
+
+a.cl_a_colorby {
+	color: white;
+	text-decoration: underline;
+}
+
+div.cl_div_container {
+	margin-left: 20px;
+	margin-right: 20px;
+	/* border: 1px solid black; */
+	/* padding-left: 20px; */
+}
+
+div.cl_div_innercontainer {
+	min-height: 100vh;
+}
